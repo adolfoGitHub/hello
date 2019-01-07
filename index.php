@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require_once('vendor/autoload.php');
 
 //create an instance of the BASE CLASS
-$f3 = Base::instance();
+$f3 = Base::instance();///
 
 //turn on fat-free error reporting
 $f3->set('DEBUG', 3);
